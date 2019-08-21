@@ -85,35 +85,37 @@ get_best_hour
 #done
 
 
+#get_arguments() {
 
-args=()
-while [[ $# -gt 0 ]]
-do
-	
-	case $key in
-    		-m|--month)
-    			month="$2"
-    			shift shift ;;
-
-    		-d|--day)
-    			day="$2"
-    			shift shift ;;
-
-    		-f|--frequency)
-    			freq="$2"
-    			shift shift ;;
-
-    		-t|--transmission_cordinates)
-    			transmission_cordinates="$2"
-    			shift shift ;;
-
-    		-r|--receive_corinates)
-    			receive_corinates="$2"
-    			shift shift ;;
-    		*)
-
-    		args+=("$1") # save it in an array for later
-    		shift ;;
-	esac
-done
-set -- "${args[@]}"
+	#args=()
+	#while [[ $# -gt 0 ]]
+	#do
+	#	
+	#	case $key in
+	#    		-m|--month)
+	#    			month="$2"
+	#    			shift shift ;;
+	#
+	#    		-d|--day)
+	#    			day="$2"
+	#    			shift shift ;;
+	#
+	#    		-f|--frequency)
+	#    			freq="$2"
+	#    			shift shift ;;
+	#
+	#    		-t|--transmission_cordinates)
+	#    			transmission_cordinates="$2"
+	#    			shift shift ;;
+	#
+	#    		-r|--receive_corinates)
+	#    			receive_corinates="$2"
+	#    			shift shift ;;
+	#    		*)
+	#
+	#    		args+=("$1") # save it in an array for later
+	#    		shift ;;
+	#	esac
+	#done
+	#set -- "${args[@]}"
+#}
