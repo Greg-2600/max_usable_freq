@@ -1,0 +1,159 @@
+3 3 5 250 20
+8 2.5 5 10 15 20 25 30 35
+  39.68  -75.75 UDel Evans Hall
+  45.30  -75.75 CHU Ottawa
+  63.98  -44.97 CFH Halifax
+  33.98 -118.44 ISI Marina del Rey
+  42.36  -71.09 MIT LCS Cambridge
+  40.68 -105.04 WWV Fort Collins
+  21.99 -159.76 WWVH Hawaii
+  50.17    9.00 DCF77 Mainflingen
+  52.37   -1.18 MSF Rugby
+  51.87 -176.63 NOX Adak 
+ -21.20 -159.82 ZKR Rarotonga 
+  21.27 -157.78 NMO Honolulu 
+   1.98 -157.48 Christmas I 
+ -17.50 -149.48 FJA Mahina 
+  49.17 -123.12 VAI Vancouver 
+  37.90 -122.70 KPH San Fransisco 
+  48.03 -122.18 KLB Seattle 
+  37.45 -122.12 KFS San Fransisco 
+  33.90 -118.15 KOK Los Angeles 
+  69.12 -105.02 VFC Cambridge Bay 
+  16.83  -99.92 XFA Acapulco 
+  19.20  -96.13 XFU Veracruz 
+  29.40  -95.13 KLC Galveston 
+  74.75  -94.97 VFR Resolute 
+  29.83  -93.97 WPA Port Arthur 
+  58.77  -93.95 VAP Churchill 
+  30.70  -88.03 WLO Mobile 
+  10.00  -83.00 TIM Limon 
+  23.17  -82.32 CLA Habana 
+  25.98  -80.20 WAX Ojus 
+  26.55  -80.10 WOE Lantana 
+  -2.22  -79.88 HCG Guayaquil 
+   8.37  -79.35 NBA Balboa 
+  25.08  -77.37 VPN Nassau 
+   3.90  -77.08 HKC Buenaventura 
+  10.95  -74.77 HKB Barranquilla 
+  41.00  -72.05 WSL Amagansett 
+  41.67  -70.03 WCC Chatham 
+  18.47  -69.88 HIA S Domingo 
+  12.13  -68.92 PJC Curacao 
+ -53.78  -67.75 LPA Tierra del Fuego 
+  18.42  -66.02 NMR San Juan 
+  45.25  -66.00 VAR St Johns 
+  44.47  -63.62 VCS Halifax 
+  14.63  -60.98 FFP Ft de France 
+ -34.45  -58.62 LPD General Pacheco 
+ -51.70  -57.85 VPC Port Stanley 
+  64.17  -51.75 OXI Godthaab 
+ -22.98  -43.18 PPR Rio de Janeiro 
+  38.53  -28.63 CTH Horta 
+  37.73  -25.67 CTD Ponta Delgada 
+  37.75  -25.65 CUG St Miguel 
+  16.88  -24.98 CQA St Vicente 
+  14.92  -23.50 CQD St Tiago 
+  64.13  -21.95 TFA Rejkjavik 
+  14.75  -17.28 6VA Dakar 
+  20.90  -17.05 5TA Nouadhibou 
+  32.62  -16.85 CUB Madeira 
+  13.27  -16.83 VSH Banjui 
+  13.45  -16.58 VSH Bathurst 
+  28.35  -16.28 EAT Tenerife 
+  28.10  -15.42 EAL Las Palmas 
+  -7.93  -14.42 ZBI Ascension 
+   6.30  -10.80 ELC Monrovia 
+  38.73   -9.18 CTV Lisboa 
+  33.62   -7.63 CNP Casablanca
+  62.02   -6.78 OXJ Torshavn 
+  36.48   -6.27 EAC Cadiz 
+   5.37   -3.97 TUA Abidjan 
+  40.03   -3.68 EAD Aranjuez 
+  51.48   -2.80 GKB Portishead 
+  43.42    1.40 FFL St Lys 
+   6.37    2.47 TYA Cotonou 
+  39.53    2.72 EAO Palma de Majorca 
+   6.62    3.52 5OW Lagos 
+  58.65    5.60 LGW Rogaland 
+  52.17    5.83 PCH Scheveningen 
+  70.95    8.67 LMJ Jan Mayen 
+   4.33    9.40 TJC Douala 
+  53.78    9.67 DAN Norddeich 
+  55.83   11.42 OXZ Lyngby 
+  -4.78   11.87 TNA Pointe-Noire 
+  57.47   11.93 SAG Goteborg 
+  41.80   12.52 IAR Roma 
+  32.90   13.18 5AT Mahattet 
+  -8.80   13.27 CQW Luanda 
+  54.58   13.62 DHS Rugen 
+  78.07   13.63 LML Isfjord 
+  35.92   14.48 9HD Malta 
+ -22.95   14.52 ZSV Walvis Bay 
+ -34.15   18.32 ZSC Cape Town 
+  54.55   18.53 SPH Gdynia 
+  37.97   24.00 SVA Athenai 
+  31.20   29.87 SUH Alexandria 
+ -25.95   32.47 CRL Lourenco Marques 
+  35.17   33.43 5BA Cyprus 
+ -19.83   34.87 CRS Beira 
+  32.80   35.00 4XO Haifa 
+  33.80   35.48 ODR Beyrouth 
+  15.18   38.88 ETC2 Asmara 
+  -3.97   39.73 5ZF Mombasa 
+  13.02   42.75 ETC Assab 
+  11.58   43.12 TXZ Djibouti 
+  12.78   45.30 FJN Dzaoudzi 
+ -25.02   46.98 5RD Ft Dauphin 
+  29.52   47.68 9KK Kuwait 
+ -12.28   49.28 5RL Diego Saurez 
+ -18.13   49.40 5RS Tamatave 
+  26.30   50.12 HZY Ras Tanura 
+ -20.30   57.48 3BA Mauritius 
+  23.62   58.50 A4M Muscat 
+  24.85   67.05 ASK Karachi 
+  19.08   72.83 VWB Bombay 
+ -37.83   77.73 FJY St Paul & Amsterdam 
+   6.92   79.88 4PB Colombo 
+   5.37  100.30 9MG Penang 
+  13.73  100.50 HSA Bangkok 
+  10.63  103.50 XUK Kompong Som-Ville 
+   1.33  103.70 9VG Singapore 
+ -10.43  105.68 VIY Christmas 
+  10.78  106.67 XVS Saigon 
+  -6.10  106.87 PKI Djakarta 
+  23.08  113.53 XSQ Kwangchow 
+  22.20  113.55 XXG Macao 
+ -24.87  113.65 VIC Carnarvon 
+  22.22  114.25 VPS Hong Kong 
+ -28.78  114.60 VIN Geraldton 
+ -32.03  115.82 VIP Perth 
+  24.47  118.08 XSM Amoy 
+  14.60  121.03 DZG Manila 
+  31.12  121.55 XSG Shanghai 
+  23.97  121.62 XS4 Hwalien 
+ -33.88  121.90 VIE Esperance 
+  32.80  130.15 JOS Nagasaki 
+ -12.80  130.83 VID Darwin 
+  35.75  140.75 JCS Chosi 
+ -10.58  142.22 VII Thursday 
+  13.48  144.78 NRV Guam 
+ -38.47  144.92 VIM Melbourne 
+ -19.20  146.82 VIT Townsville 
+  -9.47  147.18 VIG Port Moresby 
+ -42.87  147.32 VIH Hobart 
+ -23.40  150.50 VIR Rockhampton 
+ -33.80  150.87 VIS Sydney 
+  -4.20  152.18 VJZ Rabaul 
+ -27.07  153.05 VIB Brisbane 
+ -22.27  166.47 FJP Noumea 
+ -29.05  167.93 VJU Norfolk 
+ -46.50  168.37 ZLB Awarua 
+ -17.73  168.55 YJM Port-Vila 
+   0.00  169.58 VQK Ocean I 
+   7.08  171.38 KUP65 Majuro 
+   1.35  172.92 VSZ Tarawa 
+ -41.27  174.77 ZLW Wellington 
+ -36.88  174.92 ZLO Auckland 
+ -18.15  178.45 VRP Suva 
+  -8.52  179.22 Funafuti I 
