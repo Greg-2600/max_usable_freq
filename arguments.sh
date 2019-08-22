@@ -32,19 +32,19 @@ for arg in $argc; do
 		-f|--frequency)
 			frequency="$arg" ;;
 
-		-s|--solar-flux)
+		-s|--solar_flux)
 			solar_flux="$arg" ;;
 
-		--transmission-coordinates)
+		--transmission_coordinates)
 			transmission_coordinates=$(echo "$arg"|sed 's/,/ /') ;;
 
-		--transmission-name)
+		--transmission_name)
 			transmission_name="$arg" ;;
 
-		--receive-coordinates)
+		--receive_coordinates)
 			receive_coorinates=$(echo "$arg"|sed 's/,/ /') ;;
 
-		--receive-name)
+		--receive_name)
 			receive_name="$arg" ;;
 		*)
 	esac
