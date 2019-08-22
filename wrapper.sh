@@ -38,7 +38,7 @@ echo "$count_freq $freq">>${temp_in}
 echo "$trans_loc $trans_name">>${temp_in}
 echo "$recv_loc $recv_name">>${temp_in}
 
-data=$(./minimuf temp_in)
+data=$(./minimuf temp_in dipole.dat)
 
 
 distance=$(echo "$data"|grep istance|awk {'print $4, $5'})
@@ -57,20 +57,20 @@ high_noise=$(echo $nnnihf_hour_path_descriptor|grep s)
 signal_level_db=$(echo "$nnnihf_hour_path_descriptor"|tr "[a-z]" " "|awk {'print $1'})
 
 
-#echo "distance: $distance"
-#echo "signal_to_noise: $snr"
-#echo "delay: $delay"
-#echo "UTC_hour: $utc_hour"
-#echo "nnnihf_hour_MUF: $nnnihf_hour_MUF"
-#echo "nnnihf_hour_zenith: $nnnihf_hour_zenith"
-#echo "nnnihf_hour_path_descriptor: $nnnihf_hour_path_descriptor"
-#echo "signal_level in db: $signal_level_db"
-#echo "hops_day: $hops_day"
-#echo "hops_night: $hops_night"
-#echo "hops_day_and_night: $hops_day_and_night"
-#echo "below_e_layer_MUF: $below_e_layer_MUF"
-#echo "multipath_distortion: $multipath_distortion"
-#echo "high_noise: $high_noise"
+echo "distance: $distance"
+echo "signal_to_noise: $snr"
+echo "delay: $delay"
+echo "UTC_hour: $utc_hour"
+echo "nnnihf_hour_MUF: $nnnihf_hour_MUF"
+echo "nnnihf_hour_zenith: $nnnihf_hour_zenith"
+echo "nnnihf_hour_path_descriptor: $nnnihf_hour_path_descriptor"
+echo "signal_level in db: $signal_level_db"
+echo "hops_day: $hops_day"
+echo "hops_night: $hops_night"
+echo "hops_day_and_night: $hops_day_and_night"
+echo "below_e_layer_MUF: $below_e_layer_MUF"
+echo "multipath_distortion: $multipath_distortion"
+echo "high_noise: $high_noise"
 
 
 get_best_hour() {
