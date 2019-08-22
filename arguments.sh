@@ -35,14 +35,14 @@ for arg in $argc; do
 		-s|--solar_flux)
 			solar_flux="$arg" ;;
 
-		--transmission_cordinates)
-			transmission_cordinates=$(echo "$arg"|sed 's/,/ /') ;;
+		--transmission_coordinates)
+			transmission_coordinates=$(echo "$arg"|sed 's/,/ /') ;;
 
 		--transmission_name)
 			transmission_name="$arg" ;;
 
-		--receive_cordinates)
-			receive_corinates=$(echo "$arg"|sed 's/,/ /') ;;
+		--receive_coordinates)
+			receive_coorinates=$(echo "$arg"|sed 's/,/ /') ;;
 
 		--receive_name)
 			receive_name="$arg" ;;
