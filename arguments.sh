@@ -42,7 +42,7 @@ for arg in $argc; do
 			transmission_name="$arg" ;;
 
 		--receive_coordinates)
-			receive_coorinates=$(echo "$arg"|sed 's/,/ /') ;;
+			receive_coordinates=$(echo "$arg"|sed 's/,/ /') ;;
 
 		--receive_name)
 			receive_name="$arg" ;;
@@ -57,12 +57,30 @@ if [ "$month" -gt "$max_month" ]; then
 	display_usage
 fi
 
+max_day=31
+if [ "$day" -gt "$max_day" ]; then
+	echo "ERROR: invalid day range $day is larger than $max_day" 
+	display_usage
+fi
+
+receive_coordinates_count=$(echo $receive_coordinates|tr -d '-'|wc -w)
+if [  $receive_coordinates_count -ne 2 ]; then 
+	echo "ERROR: please verify --receive_coordinates: $receive_coordinates" 
+	display_usage
+fi 
+
+transmission_coordinates_count=$(echo $transmission_coordinates|tr -d '-'|wc -w)
+if [  $transmission_coordinates_count -ne 2 ]; then 
+	echo "ERROR: please verify --transmission_coordinates: $transmission_coordinates" 
+	display_usage
+fi 
+
 echo "month: $month"
 echo "day: $day"
 echo "frequency: $frequency" 
 echo "solar_flux: $solar_flux"
 echo "transmission_coordinates: $transmission_coordinates"
 echo "transmission_name: $transmission_name"
-echo "receive_cordinates: $receive_coorinates"
+echo "receive_coordinates: $receive_coordinates"
 echo "receive_name: $receive_name"
 #./arguments.sh --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name foo_bar --receive_coordinates -101,89 --receive_name baz_bro
