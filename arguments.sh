@@ -2,12 +2,12 @@
 
 display_usage() {
 	echo
-	echo -e "Arguments from the command line must not contain spaces, sorry"
-	echo -e "Seperate coordinates comma i.e.: \"-90,101\" and names with underscores i.e.: \"this_name\""
-	echo
 
-	echo  "Usage:
-	$0 --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name this_place --receive_coordinates -101,89 --receive_name that_place"
+	echo "Usage: $0 [--month num] [--day num] [--frequency num] [--solar_flux num]"
+	echo "          [--transmission_coordinates [value]] [--transmission_name [pattern]]"
+	echo "          [--receive_coordinates [value]] [--receive_name [pattern]]"
+	echo "          coordinates must be sperated by commas i.e.: \"-90,101\""
+	echo "          names must be seperated by underscores i.e.: \"this_name\""
 	exit 0
 }
 
@@ -52,25 +52,25 @@ for arg in $argc; do
 done
 
 max_month=12
-if [ "$month" -gt "$max_month" ]; then
+if [ $month -gt $max_month ]; then
 	echo "ERROR: invalid month range $month is larger than $max_month" 
 	display_usage
 fi
 
 max_day=31
-if [ "$day" -gt "$max_day" ]; then
+if [ $day -gt $max_day ]; then
 	echo "ERROR: invalid day range $day is larger than $max_day" 
 	display_usage
 fi
 
 receive_coordinates_count=$(echo $receive_coordinates|tr -d '-'|wc -w)
-if [  $receive_coordinates_count -ne 2 ]; then 
+if [ $receive_coordinates_count -ne 2 ]; then 
 	echo "ERROR: please verify --receive_coordinates: $receive_coordinates" 
 	display_usage
 fi 
 
 transmission_coordinates_count=$(echo $transmission_coordinates|tr -d '-'|wc -w)
-if [  $transmission_coordinates_count -ne 2 ]; then 
+if [ $transmission_coordinates_count -ne 2 ]; then 
 	echo "ERROR: please verify --transmission_coordinates: $transmission_coordinates" 
 	display_usage
 fi 
@@ -84,3 +84,4 @@ echo "transmission_name: $transmission_name"
 echo "receive_coordinates: $receive_coordinates"
 echo "receive_name: $receive_name"
 #./arguments.sh --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name foo_bar --receive_coordinates -101,89 --receive_name baz_bro
+#	$0 --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name this_place --receive_coordinates -101,89 --receive_name that_place"
