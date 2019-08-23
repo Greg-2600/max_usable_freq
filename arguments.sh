@@ -1,8 +1,7 @@
 #!/bin/bash
 
 display_usage() {
-	echo
-
+	echo ""
 	echo "Usage: $0 [--month num] [--day num] [--frequency num] [--solar_flux num]"
 	echo "          [--transmission_coordinates [value]] [--transmission_name [pattern]]"
 	echo "          [--receive_coordinates [value]] [--receive_name [pattern]]"
