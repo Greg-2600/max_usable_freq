@@ -1,5 +1,6 @@
 # max_usable_freq
 wrapping minimuf - expermental
+*** arguments.sh and wrapper.sh needs to conflate.
 
 
 
