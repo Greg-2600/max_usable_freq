@@ -126,6 +126,8 @@ display_usage() {
 	echo "          [--receive_coordinates [value]] [--receive_name [pattern]]"
 	echo "          coordinates must be sperated by commas i.e.: \"-90,101\""
 	echo "          names must be seperated by underscores i.e.: \"this_name\""
+	echo "Example:"
+	echo "$0  --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name foo_bar --receive_coordinates -101,89 --receive_name baz_bro"
 	exit 0
 }
 
@@ -201,5 +203,6 @@ echo "transmission_coordinates: $transmission_coordinates"
 echo "transmission_name: $transmission_name"
 echo "receive_coordinates: $receive_coordinates"
 echo "receive_name: $receive_name"
-#./.wrapper --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name foo_bar --receive_coordinates -101,89 --receive_name baz_bro
-#	$0 --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name this_place --receive_coordinates -101,89 --receive_name that_place"
+
+# ./wrapper.sh --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name foo_bar --receive_coordinates -101,89 --receive_name baz_bro
+# $0 --month 2 --day 28 --frequency 7.185 --solar_flux 67 --transmission_coordinates 90,-102 --transmission_name this_place --receive_coordinates -101,89 --receive_name that_place"
